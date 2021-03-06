@@ -19,6 +19,7 @@ namespace ALoGaucho.CryptoAnalyzer.ApiHost.Controllers
         public IList<TrendResponse> GetTrends(int nrOfPosts)
         {
 
+
             var trends = _trendsService.GetTrends(nrOfPosts);
             return trends.Select(TrendsMapper.ToModel).ToList();
 
