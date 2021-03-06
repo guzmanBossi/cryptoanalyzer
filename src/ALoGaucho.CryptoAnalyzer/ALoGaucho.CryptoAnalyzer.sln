@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALoGaucho.CryptoAnalyzer.ApiHost", "ALoGaucho.CryptoAnalyzer.ApiHost\ALoGaucho.CryptoAnalyzer.ApiHost.csproj", "{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALoGaucho.CryptoAnalyzer.ApiHost.Tests", "ALoGaucho.CryptoAnalyzer.ApiHost.Tests\ALoGaucho.CryptoAnalyzer.ApiHost.Tests.csproj", "{0196B2DD-85FE-45EE-9370-29B390EC430D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALoGaucho.CryptoAnalyzer.Domain", "ALoGaucho.CryptoAnalyzer.Domain\ALoGaucho.CryptoAnalyzer.Domain.csproj", "{98691B78-93E8-467A-B951-A08ED3AC291C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Debug|Any CPU.Build.0 = Debug|x64
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Debug|x64.ActiveCfg = Debug|x64
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Debug|x64.Build.0 = Debug|x64
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Release|x64.ActiveCfg = Release|x64
+		{EB3C54A4-F890-4E1C-A469-CBF87EEAB79F}.Release|x64.Build.0 = Release|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Debug|Any CPU.Build.0 = Debug|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Debug|x64.ActiveCfg = Debug|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Debug|x64.Build.0 = Debug|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Release|x64.ActiveCfg = Release|x64
+		{0196B2DD-85FE-45EE-9370-29B390EC430D}.Release|x64.Build.0 = Release|x64
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Debug|x64.Build.0 = Debug|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Release|x64.ActiveCfg = Release|Any CPU
+		{98691B78-93E8-467A-B951-A08ED3AC291C}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4044358B-BEAB-4F54-9E68-5991C15D0D8C}
+	EndGlobalSection
+EndGlobal
